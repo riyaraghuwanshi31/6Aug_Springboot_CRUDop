@@ -10,7 +10,7 @@ const User = () => {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await axios.get("http://localhost:8080/employee");
+                const response = await axios.get("6augspringbootcrudop-production.up.railway.app/employee");
                 setEmployees(response.data);
             } catch (error) {
                 if (error.response) {
@@ -28,7 +28,7 @@ const User = () => {
         if (window.confirm("Are you sure to delete this record?")) {
             try {
                 console.log(`id: ${id}`);
-                const response = await axios.delete(`http://localhost:8080/employee/${id}`);
+                const response = await axios.delete(`6augspringbootcrudop-production.up.railway.app/employee/${id}`);
                 toast.success(response.data.msg, { position: "top-right" });
                 setEmployees(employees.filter((employee) => employee.employeeId !== id));
             } catch (error) {

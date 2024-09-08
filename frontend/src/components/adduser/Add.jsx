@@ -53,7 +53,7 @@ const Add = () => {
 
     try {
       
-      const response = await axios.post("http://localhost:8080/employee", employeeWithFormattedDate);
+      const response = await axios.post("6augspringbootcrudop-production.up.railway.app/employee", employeeWithFormattedDate);
       toast.success(response.data.msg, { position: "top-right" });
       console.log(`Request succeeded (201 Created)`);
       navigate("/");

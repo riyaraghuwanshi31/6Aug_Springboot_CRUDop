@@ -1,0 +1,66 @@
+.employeeTable{
+    width: 90%;
+    background-color: rgb(255, 253, 253);
+    /* box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.065); */
+    border-radius: 5px;
+    margin: 50px auto;
+    padding: 30px;
+}
+
+.addButton{
+   text-decoration: none;
+   background-color: rgb(72, 66, 75);
+   color: rgb(255, 255, 255);
+   font-weight: 500;
+   box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.065);
+   border-radius: 5px;
+   padding: 10px;
+   margin: 5%;
+}
+
+.employeeTable table{
+    width: 100%;
+    margin-top: 30px;
+    border-collapse: collapse;
+    background-color: rgba(250, 240, 251, 0.906);
+    color: rgb(0, 0, 0);
+    box-shadow: 1px 3px 2px rgba(106, 86, 86, 0.7);
+}
+
+.employeeTable table thead th{
+    background-color: rgba(78, 48, 96, 0.795);
+    color: white;
+    padding: 10px;
+}
+
+.employeeTable table tbody td{
+    padding: 10px;
+    text-align: center;
+
+}
+
+.actionButtons button{
+    border: 0;
+    outline: none;
+    background: rgb(138, 68, 48);
+    padding: 8px 10px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 1px;
+}
+
+.actionButtons a{
+    background: rgb(74, 114, 74);
+    padding: 6px 10px;
+    color: white;
+    border-radius: 5px;
+    margin: 0px 10px;
+    text-decoration: none;
+    
+}
+
+.addButton{
+    padding: 10px;
+   
+}

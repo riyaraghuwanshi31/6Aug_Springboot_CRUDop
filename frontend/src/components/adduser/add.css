@@ -1,0 +1,48 @@
+.addEmployee{
+    width: 25%;
+    background-color: rgb(217, 214, 214);
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.065);
+    border-radius: 5px;
+    margin: 50px auto;
+    padding: 50px;
+}
+
+.addEmployeeForm {
+    margin-top: 20px;
+
+}
+
+.addEmployeeForm .inputGroup{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.addEmployeeForm .inputGroup label{
+    margin-bottom: 5px;
+}
+
+.addEmployeeForm .inputGroup input{
+    margin-bottom: 10px;
+    padding: 10px;
+    outline: none;
+}
+
+.addEmployeeForm .inputGroup button{
+    border: 0;
+    outline: none;
+    background-color: purple;
+    color: white;
+    font-weight: 600;
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.065);
+    margin-top: 20px;
+}
+
+.addEmployee h3{
+    margin-top: 10px;
+}
+

@@ -1,0 +1,5 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://riyar31:riyar31@cluster0.nhguysk.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0     
+      database: Employee     

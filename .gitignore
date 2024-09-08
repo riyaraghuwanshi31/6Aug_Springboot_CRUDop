@@ -1,0 +1,9 @@
+# Frontend (React)
+/frontend/node_modules
+/frontend/build
+
+# Backend (Spring Boot)
+/springboot-restapi/target
+
+# OS-specific files
+/.DS_Store

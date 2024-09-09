@@ -36,7 +36,7 @@ const Edit = () => {
     };
 
     useEffect(() => {
-        axios.get(`6augspringbootcrudop-production.up.railway.app/employee/${id}`)
+        axios.get(`https://6augspringbootcrudop-production.up.railway.app/employee/${id}`)
             .then((response) => {
                 setEmployee(response.data); 
             })
@@ -66,7 +66,7 @@ const Edit = () => {
         const formattedDate = formatDateForServer(employee.dateOfJoining);
         const employeeWithFormattedDate = { ...employee, dateOfJoining: formattedDate };
 
-        await axios.put(`6augspringbootcrudop-production.up.railway.app/employee/${id}`, employeeWithFormattedDate)
+        await axios.put(`https://6augspringbootcrudop-production.up.railway.app/employee/${id}`, employeeWithFormattedDate)
             .then((response) => {
                 toast.success(response.data.msg, { position: "top-right" });
                 console.log(`Request succeeded (200 OK)`);

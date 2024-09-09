@@ -52,7 +52,7 @@ const Add = () => {
     const employeeWithFormattedDate = { ...employee, dateOfJoining: formattedDate };
 
     try {
-      
+
       const response = await axios.post("https://6augspringbootcrudop-production.up.railway.app/employee", employeeWithFormattedDate);
       toast.success(response.data.msg, { position: "top-right" });
       console.log(`Request succeeded (201 Created)`);
@@ -64,7 +64,7 @@ const Add = () => {
         console.log(`Error: ${error.response.status} - ${errorMessage}`);
       } else {
         toast.error("An error occurred while creating the employee record", { position: "top-right" });
-        
+
       }
     }
   };

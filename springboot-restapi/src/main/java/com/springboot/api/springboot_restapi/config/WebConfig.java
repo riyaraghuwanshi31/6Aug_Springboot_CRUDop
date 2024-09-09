@@ -10,7 +10,7 @@ public class WebConfig implements WebMvcConfigurer {
     @Override
     public void addCorsMappings(CorsRegistry registry) {
         registry.addMapping("/**")
-                .allowedOrigins("https://6-aug-springboot-crudop-8dbr9wgmv-riya-raghuwanshis-projects.vercel.app")
+                .allowedOrigins("https://6-aug-springboot-crudop-8dbr9wgmv-riya-raghuwanshis-projects.vercel.app", "http://localhost:5173")
                 .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                 .allowedHeaders("*")
                 .allowCredentials(true);
